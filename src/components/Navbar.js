@@ -1,15 +1,13 @@
 import React from 'react';
-import { Link, NavLink, withRouter } from 'react-router-dom'
+import { Link, NavLink, withRouter } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 import '../css/Navbar.css';
 
 const Navbar = (props) => {
-    // setTimeout(() => {
-    //     props.history.push('/about')
-    // }, 2000)
     return (
         <div className="navbar clearfix">
-            <div class="navbar-links">
-                <p>Tuttime</p>
+            <div className="navbar-links">
+                <img src={Logo} alt="tutor-time-logo" className="logo" />
                 <nav>
                     <ul>
                         <li><Link to="/">Home</Link></li>

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #222;
-    font-family: sans-serif;
+    font-family: "Righteous";
     font-weight: 400;
 }
 
@@ -14,9 +14,11 @@ body {
     margin: 0 auto; 
 }
 
-.navbar p {
+.navbar .logo {
     float: left;
+    margin: 15px 0;
     padding: 10px, 0;
+    height: 50px;
 }
 
 .navbar nav {
@@ -32,7 +34,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 15px;
+    padding-top: 30px;
     position: relative;
 }
 
@@ -40,7 +42,7 @@ nav a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20;
 }
 
 nav a:hover {

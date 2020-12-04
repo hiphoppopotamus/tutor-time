@@ -30,3 +30,8 @@ code {
   display: table;
   clear: both;
 }
+
+@font-face {
+  font-family: 'Righteous';
+  src: local('Righteous'), url('./fonts/Righteous/Righteous-Regular.ttf') format('truetype');
+}
