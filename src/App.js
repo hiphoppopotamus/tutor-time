@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
+import Login from './components/Login'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar />
+          <Login />
           <Switch>
             
           </Switch>

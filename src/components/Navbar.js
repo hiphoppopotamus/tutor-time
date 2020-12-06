@@ -5,9 +5,12 @@ import '../css/Navbar.css';
 
 const Navbar = (props) => {
     return (
-        <div className="navbar clearfix">
+        <div className="navbar-container clearfix">
             <div className="navbar-links">
-                <img src={Logo} alt="tutor-time-logo" className="logo" />
+                <Link to="/">
+                    <img src={Logo} alt="tutor-time-logo" className="header-logo" />
+                    <p className="header-title">Tutor Time</p>
+                </Link>
                 <nav>
                     <ul>
                         <li><Link to="/">Home</Link></li>
