@@ -2,8 +2,8 @@
     background: #6599E7;
     font-family: "Righteous";
     font-weight: 400;
-    outline: dashed;
-    outline-width: 6px;
+    outline: solid;
+    outline-width: 5px;
     outline-color: #444;
     margin-bottom: 5px;
 }
