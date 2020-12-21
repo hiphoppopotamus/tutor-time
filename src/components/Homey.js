@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import Pokeball from '../pokeball.png'
 
-class Home extends Component {
+class Homey extends Component {
     state = {
         posts: [ ]
     }
@@ -43,4 +43,4 @@ class Home extends Component {
     }
 }
 
-export default Home
+export default Homey
