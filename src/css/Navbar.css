@@ -1,13 +1,9 @@
 .navbar-container {
     background: #6599E7;
-    font-family: "Righteous";
-    font-weight: 400;
-
-    /* outline: solid;
-    outline-width: 5px;
-    outline-color: #444; */
-
-    margin-bottom: 5px;
+    font-family: "Custom-TT";
+    /* font-weight: 400; */
+    height: 68px;
+    margin-bottom: 20px;
 }
 
 .navbar-links {
@@ -18,8 +14,7 @@
 .header-logo {
     float: left;
     margin: 15px 0;
-    padding-top: 3px;
-    height: 50px;
+    height: 40px;
 }
 
 .header-title {
@@ -27,8 +22,8 @@
     color: #ffe76f;
     text-shadow: 0 0 1px rgb(163, 144, 144), 0 0 5px rgb(129, 118, 118);
     text-transform: uppercase;
-    font-size: 40px;
-    margin: 17px 0;
+    font-size: 30px;
+    margin: 15px 0;
     padding-left: 15px;
 }
 
@@ -46,7 +41,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 30px;
+    padding-top: 25px;
     position: relative;
 }
 
@@ -55,7 +50,7 @@ nav a {
     text-shadow: 0 0 1px rgb(163, 144, 144), 0 0 5px rgb(129, 118, 118);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav a:hover {

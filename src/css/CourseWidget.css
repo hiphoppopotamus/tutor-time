@@ -1,15 +1,7 @@
-.course-widget-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 95%;
-}
-
 .course-widget {
     border: 1px;
     border-style: dashed;
-    margin: 20px 45px;
-    height: 200px;
-    width: 274px;
+    margin: 19px 14px;
+    height: 160px;
+    width: 254px;
 }

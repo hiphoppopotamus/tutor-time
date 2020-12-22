@@ -36,3 +36,8 @@ code {
   font-family: 'Righteous';
   src: local('Righteous'), url('./fonts/Righteous/Righteous-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Custom-TT';
+  src: local('Custom'), url('./fonts/Custom/Custom-TT.ttf') format('truetype');
+}
