@@ -1,5 +1,13 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
 .dashhboard-header {
-    font-family: "Righteous";
+    font-family: "Custom-TT";
     font-size: 3em;
     text-align: center;
     margin-top: 25px;
@@ -9,10 +17,3 @@
     margin-right: 100px;
 }
 
-.dashboard-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 95%;
-}

@@ -7,13 +7,15 @@ class Dashboard extends Component {
         return (
             <div className="dashboard-container">
                 <h1 className="dashhboard-header">What do you want to do today?</h1>
-                <CourseWidget />
-                <CourseWidget />
-                <CourseWidget />
-                <CourseWidget />
-                <CourseWidget />
-                <CourseWidget />
-                <CourseWidget />
+                {/* <div className="course-widget-container"> */}
+                    <CourseWidget />
+                    <CourseWidget />
+                    <CourseWidget />
+                    <CourseWidget />
+                    <CourseWidget />
+                    <CourseWidget />
+                    <CourseWidget />
+                {/* </div> */}
             </div>
         )
     }
