@@ -1,28 +1,70 @@
 .login-container {
+    margin: 0 auto;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    font-family: "Righteous";
+    max-width: 990px;
+}
+.login-title-container {
+    color: #6599E7;
+    grid-column: 1;
+    margin-top: 98px;
+    margin-left: 30px;
+    position: relative;
+    text-shadow: 0 0 10px #ffe76f, 0 0 5px #ffe76f;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.login-icon {
+    height: 390px;
+    opacity: 0.7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-title {
+    position: absolute;
+    font-size: 4em;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+.login-description {
+    position: absolute;
+    font-size: 1.5em;
+    top: 41%;
+    text-align: center;
+    width: 400px;
+}
+.login-form-container {
     border-radius: 15px;
     width: 450px;
     height: 270px;
-    margin: 90px 130px 0 auto;
-    padding: 50px 0;
-    box-shadow: 15px 15px 30px #696969;
+    /* margin: 90px 100px 0 auto; */
+    margin-top: 90px;
+    margin-right: 51px;
+    padding: 50px 0 40px;
+    box-shadow: 10px 10px 25px #696969;
     font-family: "Righteous";
     background: #6599E7;
+    grid-column: 2;
+    justify-self: end;
 }
-
 .login-form {
     margin: 0 40px;
     color: #ffe76f;
     text-shadow: 0 0 1px rgb(163, 144, 144), 0 0 5px rgb(129, 118, 118);
     text-decoration: none;
-    font-size: 20px;
-}
-
-.login-form label {
+    font-size: 18px;
+}            
+.login-label {
     display: block;
     margin-bottom: 8px;
 }
-
-.login-form input[type=text] {
+.login-input {
     width: 97%;
     height: 40px;
     display: block;
@@ -31,17 +73,14 @@
     border-radius: 13px;
     text-indent: 10px;
     font-family: "Righteous";
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: 2px 2px 8px #696969;
 }
-
-.login-form input:focus{
+.login-input:focus{
     outline: none;
-    box-shadow: 0 0 10pt 2pt #ffffff;
-
+    box-shadow: 0 0 10pt 2pt #ffe76f;
 }
-
-.login-form button {
+.login-button {
     width: 98%;
     height: 48px;
     color: white;
@@ -49,12 +88,67 @@
     border-radius: 13px;
     border-style: none;
     font-family: "Righteous";
-    font-size: 20px;
+    font-size: 18px;
     background-color: #149e44;
     box-shadow: 2px 2px 8px #696969;
 }
-
-.login-form button:focus{
+.login-button:focus{
     outline: none;
-    box-shadow: 0 0 10pt 2pt #ffffff;
+    box-shadow: 0 0 10pt 2pt #ffe76f;
 }
+/* .login-alternative-background{
+    overflow-wrap: break-word;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    z-index: -1;
+} */
+@media only screen and (max-width: 1140px) {
+    .login-container {
+        transform: scale(auto);
+    }
+}
+@media only screen and (max-width: 980px) {
+    .login-container {
+        padding: 0;
+        margin: 27px auto;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: none;
+        width: 500px;
+    }
+
+   
+    .login-title-container {
+        margin: 0 auto;
+        /* transform: scale(0.5); */
+    }
+
+    .login-icon {
+        position: absolute;
+        /* height: 150px; */
+        z-index: -1;
+        transform: rotate(-6deg); /* Equal to rotateZ(45deg) */
+        opacity: 1;
+    }
+
+    .login-title {
+        font-size: 4em;
+        top: 58px;
+    }
+
+    .login-description {
+        font-size: 1em;
+        top: 47px;
+        width: 290px;
+
+    }
+
+    .login-form-container {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0 auto;
+        box-shadow: 5px 5px 15px #696969;
+        opacity: 0.85;
+    }
+}
+
