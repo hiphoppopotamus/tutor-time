@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+      
           {/* <Navbar /> */}
           <Route exact path="/" component={Login} />
           <Route path='/dashboard' component={Dashboard} />
